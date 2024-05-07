@@ -1,0 +1,229 @@
+what is Version Control System:-
+---------------------------------
+   -> VCS helps to manage the code changes in the software developement 
+      process.
+
+   -> It helps to allow multiple developers to write their and share among 
+     them self. and track changes to the modification.
+
+  ->we can create centralised repository.
+      (All the code pushed here --> every developer pushes his code here)
+   
+    adv of VCS:-
+    -----------
+      1. team colloboration.
+      2. Tracking changes.
+      3. allow to work in different branches and merging.
+      4. backup and recovery.
+
+==============================================================
+vcs tools:-    (team colloboration,tracking changes)
+------------
+   ->git 
+   ->bitbucket 
+   ->svn
+   ->awscodecommit,.....
+===============================================================
+
+Git:-
+------ 
+   -> Git is one of the popuplar version control system.
+   -> It was founded in 2005 Linus Torvalds.
+
+adv of Git:-
+---------------
+   ->developer collobaration. 
+   ->developer maintain the version, by creating a branch.
+   -> developer can see full history of the project.
+
+=====================================================================
+local repository:-
+------------------
+   ->(local developer system) 
+   ->git software we need install. 
+   ->git will manages the changes in the local system.
+
+
+
+remote repository:-
+------------------
+    (some remote server)
+     github.com
+
+==========================================================
+git                    vs           github
+-------------------------------------------------------
+1. It is a softwrae               It is a service.
+
+2. It is installed                It is hosted on the web
+   on the local 
+   computer.
+
+3. (need to install)              (create the account).
+
+4. It is cli based                It is gui based
+
+5. It is a tools to               It is a space to manage the
+   manage the difference          copy of the git repository.
+   version of the 
+   code in local 
+   system 
+
+========================================================================
+install git in local system:-
+------------------------------
+ https://git-scm.com/download/win
+
+C:\Users\user>git --version
+git version 2.41.0.windows.3 
+
+=======================================================================
+create a account in the gihub:-
+--------------------------------
+   login to github:-
+   ------------------
+
+Note:-
+-----
+   you need to aware of username and password.
+=====================================================================
+
+how git and github will connect to our account:-
+------------------------------------------------- 
+in git:-
+----------
+   ->  we will config username and email and password. 
+   ->  provide the remote repository url,
+==================================================================   
+
+…or create a new repository on the command line:
+----------------------------------------------------
+ use the below command, to create a new repository in the local system
+ and push to github.
+
+echo "# wipro_testing" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mytraining1/wipro_testing.git
+git push -u origin main
+
+
+…or push an existing repository from the command line:-
+--------------------------------------------------------
+
+for existing repository use the below steps.
+
+
+git remote add origin https://github.com/mytraining1/wipro_testing.git
+git branch -M main
+git push -u origin main
+
+
+=====================================================================
+Note:-
+------
+   Git will do the file tracking changes, ---> to do so 
+   we need to initilize the git . 
+     git init.
+
+
+
+==============================================================
+steps:-
+-------- 
+ git init  (only once, the first time when we create the repository).
+ 
+ git add .  ( dot -> indicates current directory , or we can give file name)
+
+ git commit -m "message"
+
+ git remote add origin https://github.com/mytraining1/wipro_testing.git 
+
+
+steps:-
+--------
+  git add . 
+  git commit 
+  git push 
+
+
+
+========================================================================
+Git branches:-
+--------------
+   --> Git branch is a seperate version of the main repository.
+  
+
+   syntax:- to create a new branch
+   ----------
+      git checkout -b branch_name 
+
+   switch to other branch:-
+   ------------------------
+      git checkout branch_name
+ 
+
+=============================================================
+steps:-
+------------
+1. create a new repository in github.
+
+2. open cmd, in the local repo directory.
+       initilize the git repo  --> git init
+       add the remote origin   --> git remote add origin url 
+
+
+3.imagine we have two developer. 
+   rohit  ---> login feature
+   ankit  ---> cart feature
+  
+     create two brach with the name, 
+        rohit and ankit 
+
+     git checkout -b rohitbranch 
+     git checkout -b ankitbranch 
+
+=================================================
+steps:-
+--------
+  git clone 
+  cd onlinemovie 
+  git checkout -b branch1 
+  git add .
+  git commit -m "some msg"
+  git push origin branch1.
+
+=====================================================
+->one person can create a repository in github, 
+    the same person can invite other team member to work in the project. 
+
+    the team member can clone the repository and work in different branches..
+
+====================================================================      
+
+
+
+      
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
