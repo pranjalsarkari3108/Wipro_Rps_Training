@@ -1,0 +1,100 @@
+Agile:-
+--------
+   2 framework:
+       1. scrum  framework.   --> It is based on sprints,product backlog 
+                                  sprint blocklog,...etc ---> outcome is some product feature.
+       2. kanban / kamban.     --> It is based on visualiazation ,
+                                   ToDo ----> login,update password,..
+
+                                   InProgress  --> password
+
+                                   Done   ---> login
+                                      
+
+1.scrum:-
+----------
+  roles in inside the scrum:-
+ -----------------------------
+    product owner -------->
+    scrum master  -------->
+    development team ------>
+
+
+functionality online banking:-
+------------------------------
+ user account creation
+ update user details
+ user documentation
+ account balance
+ transferfund
+ viewtransactionhistory
+ onlinekycupdate
+ billpayment
+ forex.....
+====================================================================
+kanban:-
+--------
+   ->It is a japanise word,
+   -> toyota company, it was founded.
+
+  eg:-
+  ---   
+      car manufacturing:-
+     --------------------
+     raw material ---> manufature the car ---> deliverd to customer -->
+                           10 cars
+     ware house:-
+     -----------
+     streeing->100
+   (90 streeing waste of space)
+
+   to overcome this problem.
+   -------------------------
+
+   customer order:- 10 cars
+
+   war house ---->    manufacture the car --> deliver -->
+       10 streeing
+
+   in kanban ware house stock is updated only when the order is placed 
+   from customer. 
+
+================================================================
+
+kanban methodology:-
+-----------------------
+1. visualiazation work flow.
+2. adding the task in, todo list 
+3.moving the task  ( moving from todo --progress -- done ).
+4. limiting the work in wip. 
+5. feedback.
+6. continuous improvement.
+
+======================================================================
+Scrum                     vs               kanban 
+-----------------                -------------------
+work is organised into             work is organised in to kanban board
+sprints, 
+
+before staring the sprint             no fixed timeframe for planning
+we need a sprint planning.
+(set the duration,task need to 
+completed)
+
+
+A prioritize product backlog is    no fixed backlog,
+maintained.
+
+regular meetings:-                   meetings are rarely, only when there is
+  spring planning                    necessary.
+  daily stand up 
+  sprint review 
+  sprint retrospective   
+
+=================================================================================
+
+
+ 
+
+
+

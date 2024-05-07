@@ -1,0 +1,415 @@
+
+SDLC:-
+--------
+   to develope high quality software,
+
+  stages in sdlc:-
+  -----------------
+     requirement gathering
+     feasiblity study 
+     design 
+     coading 
+     testing     
+     deploy 
+     maintanace
+
+     why we need to testing..?
+     ---------------------------
+        to remove the bugs --> (improves the quality of the software)
+    
+     category of testing..?
+     --------------------
+        manual -------> tester manually test the software
+        automation ---> instead of testing manually, we write some 
+                        automation scripts/code. 
+                           java 
+                           python 
+                           c#..........
+
+
+    modern agile development methologies:-
+    --------------------------------------
+   TDD --> Test Driven Development. 
+   BDD --> Behaviour Driven Development. 
+   FDD --> Feature Driven Development.
+
+
+   ========================================================================
+who will do testing...?
+------------------------
+   - tester is going to do the testing,
+
+   - developer is responsible to do the unit testing.
+==========================================================================        
+eg:-
+-----
+   class Calculation
+   {
+        // it is going to perform addition operation
+        public int add(int a, int b)
+        {
+            return a+b;
+        }
+
+
+        // it is going to perform substraction operation
+        public int sub(int a,int b)
+        {
+         return a-b;
+        }
+ }
+
+ ===============================================================
+TDD:-
+------
+   Testing Driven Development.
+
+   first start writing the test case, and then develope the code.
+
+     steps:-
+     ----------
+     1. first write the test case 
+     2. run the test case,
+     3. after running the test, test will fail,
+     4. then we will refactor , the code, as per the requirement.
+     5. make the test to pass.
+  
+
+  adv:-
+  ------
+    1. improves the code quality.
+         It encourage the developer, to write the test case before write the
+         actual code, so the developer mainly foucs on customer.
+            (focus the customer requirement).
+              
+    2. bugs will reduced..
+    3. developer will have clear understanding of the requirement.
+
+
+
+disadv:-
+  -------
+   1.more time consuming writing test and refrcatoring,
+
+   In agile environment we follow tdd approach. (recommended to use this),
+   the goal to improve the quality of the software.
+
+=========================================================================
+BDD:-  Behaviour Driven Development:-
+--------------------------------------
+    It is one of the software development process. 
+      here 
+         developers, tester, business analyst, 
+         techical and non-technical team is involved.
+
+    here is used to identify the behaviour of the software, and check 
+    it meets the customer requirment or not. 
+
+
+     Behavior-driven development (BDD) is an Agile software development
+     methodology in which an application is documented and designed around 
+     the behavior a user expects to experience when interacting with it.
+
+   steps for BDD:-
+   -----------------
+      In BDD, behaviors are well-articulated, human-understandable statements that define a specific process in a predetermined format. 
+     These are stored in “feature files” integrated into the software development process.
+      Tools like Cucumber and SpecFlow parse through the behaviors in the feature file and execute the “glue code” that maps behaviors to executable steps, known as “step definitions”.
+
+
+    features file:-  (given, when, and , then )==> pattern
+    ----------------
+      scanario:  for booking online railway ticket
+      given: my username is rohit 
+      and : my password  as rohit123 
+      when : when i open the browser it should browen i should go to login 
+      and : I enter the username in to username field 
+      and : I enter the password in to password field 
+      and : I click on the login button
+      
+      Then : It should go to the home page 
+      when : in source search search the source city 
+      and : in destination search bar destination city
+      when : click on search button 
+      then: it will display all the train with given source and destination
+
+task:-
+------
+  write a scanario for login and transfer fund.
+
+
+
+
+
+======================================================================
+
+ differen between  TDD and BDD:-
+ ------------------------------------   
+
+      TDD                             BDD
+      -------------                -----------------
+    ->  Test Driven Development        Behaviour Driven Development
+   
+    -> start writing the test           specify the behaviour of the sytem
+       case before writing the          based on customer requirment.
+       actual function code.            here all the stack is involved, 
+                                        and specify the test scanario in simple
+                                        english language.
+
+
+    ->framework used:-                 framework used:-
+         unit tesing framework             cucumber :
+          junit -->java language              language : 
+                                             Gherkin (It is like a plain english)     
+
+task difference between TDD and BDD:-
+-----------------------------------------
+
+=========================================================================
+FDD:-
+------
+  feature driven development.
+    
+    (here we test the feature of a software application)
+      ecommerece:-
+      ---------------
+         login feature
+         cart feature
+         payment feature
+
+  what is feature:-
+  -------------------
+      in software we have features. (functionality)
+      ---------------------------------------------
+   
+    fund transfer functionality.
+    -----------------------------
+      
+       user 
+       account 
+       transfer 
+
+      - user should be logged, 
+      - user should enter valid account number,
+      - user should enter valid amount to transfer 
+      - once user transfer the amount to some receipent, it should show in 
+        transaction history.
+          (issue tracking tools )--> jira 
+
+
+What is feature-driven development (FDD)?
+Feature-driven development (FDD) is an Agile software development 
+framework that organizes work around product features. 
+FDD is known for its short iterations and frequent releases. 
+Like Scrum -- another Agile software development framework -- 
+FDD requires the customer, also known as the project business owner,
+ to attend the initial design meeting and iteration retrospectives.
+
+By releasing new features in an incremental fashion,
+ developers can prioritize client requests, respond 
+ to requests in a timely manner and keep clients satisfied.
+  To achieve this, developers map out what features they can create, 
+  break complex requests into a series of smaller feature sets and then 
+  
+  
+  create a plan for how to complete each goal over time.
+
+===================================================================
+
+agile / (scrum framework)
+
+Agile Principles and Communication:-
+-------------------------------------
+
+What Is Scrum in Agile?
+The Agile methodology is a widely used approach in software development
+ and other industries where project requirements can change rapidly. 
+ One of the most popular frameworks used in Agile project management 
+ is Scrum. 
+
+Scrum is an iterative and incremental framework that helps teams deliver 
+high-quality products in a timely manner. It is based on the principles
+ of transparency, inspection, and adaptation, and provides a flexible 
+ and collaborative approach to project management. 
+
+different between   waterfall vs agile:-
+----------------------------------------------
+   water           vs            agile
+   -----------                ------------------------
+   sequential                    incremental model,
+   step by step 
+   process
+
+   changes cannot                changes can be
+   be accepted                   accepted.
+
+
+
+ terms used in agile:-
+ ----------------------
+
+
+ agile:- It is a software development technique, 
+         It helps developers to develope the software in 
+         increment ways, and adapt to changes,
+
+customer:-  client, who has given the product, to develope
+           
+Developer:- who is responsible for creating the product.
+
+Product Backlog:-
+          It has all features and complete details about the product.
+
+Sprint Backlog:-
+         It has details, about particular sprint, what has been implemented,
+         who has done.
+
+product Owner:- 
+             A person who define about the product to team member.
+             business analyst-> take the requirement from the clinet 
+                                and given it do the teams(developer,tester)
+            
+             As a member of the Scrum Team, the Product Owner provides 
+             clarity to the team about a product's vision and goal.
+
+Scrum master:- A scrum master is responible to manage the artifact.
+               manage the team,
+               conduct daily standup call. 
+
+
+ 
+Sprint:- 
+         some duration of time, In that it will complete some working product
+         sprint duration is between 1 to 4 weeks.
+
+user story:-
+      The requirement of the client is converted into specific user stories.
+
+======================================================================
+fail fast technique:-
+--------------------------
+    agile focus is to "fail fast",
+         because developer and project manager spends months of time 
+         to build the product, 90% changes is there of failing the product,
+
+         agile force them work in sprint and get the feedback from the 
+         clinet before developing the entire product.
+
+=========================================================================
+Scrum frameworks roles,
+  
+  Product Onwer, 
+  Scrum master, 
+  Development team,
+
+ 1.role Product Owner:-
+ ----------------------
+       1. It sets the goal, or vision of the product, based on the requirement.
+       2. priortize the product backlog.
+            complete the most valuable feature first.
+       3. Providing the clear requirement. 
+           collaborate with the stackholder and gather the requirement 
+           with clear understanding and give to development team.     
+
+
+2.role of scrum master:-   (Team leader)
+--------------------------
+    1.guide the team:-
+        the scrum master responsible sprint planning,
+
+    2. It resolve any gap /or any conflict /or issue. (to follow agile practice)
+
+    3. coaching and mentor:-
+            he will guide to team member.  
+
+
+3.role of developer:-
+-----------------------
+
+    1. collobrate with user stories:-
+    
+     understanding the user stories given by product owner,and work 
+     collobrately. (clarify the doubt with product owner).
+
+   2. develope the feature.
+       (write the code based on the requirement)
+   
+   3.ensure the quality of the code is written:-
+       the developed code meets the acceptance criteria.
+      
+         
+
+=======================================================
+
+how agile is different from other sdlc models....?
+---------------------------------------------------     
+=====================================================================
+scrum ceremonies / scrum events:-
+-----------------------------------
+
+  1. sprint planning.
+  2. daily stand up 
+  3. sprint review.
+  4. sprint retrospectives
+
+
+1. spring planning:-
+---------------------
+      sprint planning is a collobrative events between,
+         product owner 
+         scrum master 
+         developement team,
+
+         all the above members are agreed to do the work, and completed it in 
+         the upcoming spring.
+
+       eg:-
+       -----
+         during sprint planning, the team selects a user story from the 
+         product backlog,
+         and they estimate the effort take to complete the user story.
+
+
+2. Daily Stand-up:-
+----------------------
+      ->It is a short (quick call) to get the status of the product.
+
+      ->Each team member has a 3 questions,
+           i.what i have done yestarday..?
+           ii. what i will do today..? 
+           iii. Is there any backlogs (some thing block/ pending task /not completed)
+
+      -> the metting duration is  10 to 15 mts, to get the status quickly.
+
+
+3.spring review:-
+-----------------
+    -> the spring review will happen at the end of the sprint, 
+    -> In spring review , what ever the work has been completed 
+       it is shown to stackholder and get the review.  
+      
+       (after review if there is any improvment needed, that can be done)
+
+
+4.sprint retrospective:-
+-----------------------     
+     ->the teams reflects on the previous sprint, what has been done good. 
+     what needs improvement.
+
+     -> if any things needs improment, they will make a notes and try to 
+     improve in next sprint.
+
+
+===================================================================
+
+
+
+
+
+
+
+
+
+
+
+

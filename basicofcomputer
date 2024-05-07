@@ -1,0 +1,311 @@
+## fundamentals of computer:-
+
+It is a electronic device.
+It storing, processing the information.
+which is used to do some calculation. and many more things and
+moder computer and do.
+
+----> scanario, right now we are doing online session,
+how it getting possible..?
+(electronic device) --> laptop,desktop, table, mobile,
+internet.---> connecting the device over network.
+
+      computer has hardware and software.
+
+      hardware:-
+      ----------
+           physical device
+           (here we can touch and feel)
+
+      software:-
+      ----------
+          logical
+          (imaginary)
+             --> system sofware (operation system)
+                    operating system:- manages the hardware.
+                                       manages the storages
+                                       manages the power...etc
+
+             --> application software
+                     msword
+                     vscode
+
+============================================================================
+types of application.
+
+---
+
+1.desktop application --> chrome,vscode, excel, 2. web application 3. mobile application
+
+## desktop application:-
+
+    drawbacks:-
+    ------------
+
+->It is a installable software.
+-> It is take the storage from the device,
+-> we cannot access the application remotely
+-> we have to take care about maintanance.
+
+## web application:-
+
+    ->remotely from any device we can access.
+    ->we need internet to access (we are in era of internet,we will get internet easily).
+
+       2 types of web application.
+       ----------------------------
+       1. static web application.  (about us page)
+
+             technology used:-
+             --------------------
+             html, css,
+
+             the content is same to all the user
+
+       2. dynamic web application.
+             the content will be based on user login
+
+             mybookings:-
+             -------------
+               (the based on the user login the content is changed)
+
+             facebook, instagram,  --> profile page will show, based on user login,
+
+              technology used:-
+              -----------------
+              frontend-> reactjs       // user interface, presentation logic
+              backend -> python, java, c#, php, // business logic
+                                                if(balance>transferAmount)
+                                                    successfull
+                                                else
+                                                   failed
+
+
+              database -> mysql,mongodb, oracle, //to store data permenantly, we use database.
+
+
+      write the business functinality of booking a ticket in irctc:-
+      --------------------------------------------------------------
+
+Evolution of programming language.
+
+language:-
+
+---
+
+    communication
+
+## programming language:-
+
+communication with the computer. (hardware.)
+n number of programming languages,
+
+computer knows binary language. 0's and 1's.
+
+## evolution of programming languages:-
+
+1.machine level language.
+2.assembly level language.
+3.high level language.
+4.oops
+5.data scienece/ machine learning/ AI.
+
+1.machine level language:-
+
+---
+
+    0's and 1's
+
+    8    +    6    = > 14
+    1010 100 1011   => 10101
+
+## 2.Assembly level language:-
+
+        8    +    6     => 14
+       1010  ADD  1011  => 1010
+
+phenomics has introduced, like add,sub, mul,div
+
+    assembler will convert the assembly level language to binary level language.
+
+## 3.High level language:-
+
+     c,cobol,fortan
+
+         It is easily understand by computer and human being.
+            if(loginTime>9)
+                 absent
+            else
+               present
+
+    C has both high level and low level feature, so later it is termed as
+    middle level language.
+       high level feature: condition stmt, looping stmt,...
+       low level feature: pointer
+
+## 4.oops:-
+
+    why we develope software..?
+      to solve our day to day life problem.
+
+    20 years back:-
+    ----------------
+       if we want to buy something for the breakfast...?
+          go the restraunt
+          choose the menu
+          place the order
+          pay for the order
+          collect the order
+
+    why we need oops..?
+      -> to solve real world problems.
+      -> by using oops, we can design the software based on real world
+        objects.
+
+          It is based on class and objects.
+
+      class Restraunt
+      {
+
+      }
+      class Order
+      {
+
+      }
+
+## 5.machine learning/AI:-
+
+## home architecture:-
+
+    hall,kitchen,dining area,...
+
+## office architecture:-
+
+    cabin, cafe, parking,metting rooms, servcer,....
+
+web application architecture:-
+
+---
+
+fronted
+backend
+database
+
+## computer architecture:-
+
+     hardware compoents which will execute programs
+
+components,
+CPU
+Memory
+Input and Output
+Instruction Set Architecture
+System Interconnects
+
+CPU:-
+
+---
+
+    ->It is the heart of the computer
+
+Control Unit:-
+
+---
+
+    for the given input, what should be the output.
+
+ALU:-
+
+---
+
+     arithmetic and logical unit
+
+     arithmetic operation:-
+     ----------------------
+       2+2 =4
+
+      logical operation:-
+      -------------------
+       4>3=> true
+
+memory:-
+
+---
+
+    storing the data
+
+=================================================================  
+a=10 // instruction 1
+b=20 // instruction 2
+result = a+b // instrcution 3
+result = result\*2 // instruction 4
+
+execution of instruction in cpu.
+1.fetch
+2.decode
+3.execute
+4.write
+
+     1. fetch:-
+     ------------
+        It can fetch the next instruction from the memroy
+
+     2. Decode:-
+     -------------
+          decode the instruction , which operands needs to perform
+            aritchmetic
+            logic
+
+     3. Execute:-
+         perform the operations
+
+     4. write:-
+          write the back the result to the memory
+
+=======================================================================
+laptop:-
+
+---
+
+processor:-
+i5, rayzon,i7, dual core,....
+
+    inside the processor only, cpu will execute the instruction.
+
+========================================================================
+
+a device can have one or more processor, based on the configuration.
+
+## parallel processing:-
+
+In processing, the it divides the task into number of subtask
+and each sub task has certain instruction.
+
+     eg:-
+     ----
+        gaming laptop.
+        --------------
+        multiple cpus,
+         cpu 1  --> to capturation high graphics gpu
+         cpu 2  --> game control
+         .
+         .
+         cpu 3  --->
+
+
+    Parallel processing is a method in computing of running two or more processors (CPUs) to handle separate parts of an overall task. Breaking up different parts of a task among multiple processors will help reduce the amount of time to run a program.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
